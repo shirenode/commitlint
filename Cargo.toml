@@ -1,0 +1,10 @@
+[package]
+name = "shirenode-commitlint"
+version = "0.1.0"
+edition = "2021"
+description = "A git commit message linter that enforces Conventional Commits"
+
+[dependencies]
+regex = "1"
+clap = { version = "4", features = ["derive"] }
+colored = "2"
